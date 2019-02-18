@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="keydings" customModuleProvider="target">
+            <connections>
+                <outlet property="menu" destination="Von-5u-q0W" id="wOm-pr-WTa"/>
+                <outlet property="menuItem_IOSKeys" destination="s4E-Gt-0Sf" id="28Q-Ar-Xun"/>
+                <outlet property="menuItem_ModelM" destination="XAE-iQ-Jbo" id="pjO-wC-wzf"/>
+                <outlet property="menuItem_Typewriter" destination="L2G-td-3eE" id="Nfw-BN-BXv"/>
+                <outlet property="quitClicked" destination="dGz-qM-3cG" id="nAh-ZH-sgK"/>
+                <outlet property="statusMenu" destination="Von-5u-q0W" id="7wV-aT-L1T"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu id="Von-5u-q0W">
+            <items>
+                <menuItem title="Effects" id="REw-eY-aSg">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Effects" id="xyt-Fa-xdd">
+                        <items>
+                            <menuItem title="Model M" state="on" id="XAE-iQ-Jbo">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="modelMClicked:" target="Voe-Tx-rLC" id="7Yz-3n-F5b"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="iOS keys" id="s4E-Gt-0Sf">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="iOSKeysClicked:" target="Voe-Tx-rLC" id="zTu-Ph-HN0"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Typewriter" id="L2G-td-3eE">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="typewriterClicked:" target="Voe-Tx-rLC" id="TYO-Oa-cir"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Quit" id="dGz-qM-3cG">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="Voe-Tx-rLC" id="I6V-IJ-RCm"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="131.5" y="-97.5"/>
+        </menu>
+    </objects>
+</document>
