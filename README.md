@@ -12,6 +12,7 @@ https://www.youtube.com/watch?v=sQEByBpCZ0Q
 
 ## Installation
 
+0. Download a release here: https://github.com/jsyang/keydings/releases
 1. Move `keydings.app` file somewhere, like in `/Applications`.
 2. Open "Security & Privacy" panel in System Preferences (Cmd+Space, then type "Security & Privacy")
 3. Click on the "Privacy" tab then on Accessibility in the left hand menu.
