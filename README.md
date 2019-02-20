@@ -6,6 +6,10 @@ A macOS status bar app for choosing keystroke sound effects.
 - iOS key sound
 - "typewriter"
 
+## Demo
+
+https://www.youtube.com/watch?v=sQEByBpCZ0Q
+
 ## Installation
 
 1. Move `keydings.app` file somewhere, like in `/Applications`.
